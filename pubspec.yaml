@@ -1,0 +1,36 @@
+name: project_1
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Retro
+      fonts:
+        - asset: assets/fonts/retro_computer_personal_use.ttf
+    - family: VT323
+      fonts:
+        - asset: assets/fonts/VT323-Regular.ttf
+  assets:
+    - assets/images/chest.png
+    - assets/images/oaktree.png
+    - assets/images/pickaxe.svg
+    - assets/images/planks.png
+    - assets/images/stairs.png
+    - assets/images/stick.png
+    - assets/images/trees.jpg
+    - assets/images/valley.jpg
